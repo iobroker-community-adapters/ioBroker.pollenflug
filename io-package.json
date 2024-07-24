@@ -152,7 +152,7 @@
         "license": "MIT",
         "authors": [
             "Thorsten Stueben <thorsten@stueben.de>",
-            "mcm1957 <iobroker-community-adapters@gmx.de>",
+            "mcm1957 <iobroker-community-adapters@gmx.de>"
         ],
         "platform": "Javascript/Node.js",
         "mode": "daemon",
