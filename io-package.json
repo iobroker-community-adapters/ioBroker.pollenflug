@@ -172,13 +172,7 @@
         "type": "weather",
         "restartAdapters": [],
         "connectionType": "local",
-        "dataSource": "push",
-        "plugins": {
-            "sentry": {
-                "dsn": "https://38c0226866df4a85b5db5c306d0a3213@sentry.iobroker.net/60",
-                "pathWhitelist": []
-            }
-        }
+        "dataSource": "push"
     },
     "native": {
         "pollInterval": "5",
