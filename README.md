@@ -116,7 +116,7 @@ This adapter would not have been possible without the great work of schmupu (htt
 -->
 ### **WORK IN PROGRESS**
 * (mcm1957) This adapter hase been moved to iobroker-community-adapters organization
-* (mcm1957) Adapter requires node 18 and js-controller 5 now
+* (mcm1957) Adapter requires node-js 18 and js-controller 5 now
 * (mcm1957) Dependencies have been updated
 
 ### 1.0.6 (03.05.2019)
