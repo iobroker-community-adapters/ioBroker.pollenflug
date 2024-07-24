@@ -1,33 +1,20 @@
 {
   "common": {
     "name": "pollenflug",
-    "version": "2.0.0-alpha.1",
+    "version": "2.0.0",
     "news": {
-      "2.0.0-alpha.1": {
-        "en": "This adapter hase been moved to iobroker-community-adapters organization\nAdapter requires node 18 and js-controller 5 now\nDependencies have been updated",
-        "de": "Dieser Adapter wurde in iobroker-community-Adapter Organisation verschoben\nAdapter benötigt jetzt Knoten 18 und js-Controller 5\nAbhängigkeiten wurden aktualisiert",
-        "ru": "Этот адаптер был перемещен в организацию iobroker-community-adapters\nАдаптер требует узла 18 и js-контроллер 5 сейчас\nЗависимость обновлена",
-        "pt": "Este adaptador foi movido para iobroker-community-adapters organização\nAdaptador requer nó 18 e js-controller 5 agora\nAs dependências foram atualizadas",
-        "nl": "Deze adapter is verplaatst naar iobroker-community-adapters organisatie\nAdapter vereist node 18 en js-controller 5 nu\nAfhankelijkheden zijn bijgewerkt",
-        "fr": "Cet adaptateur a été transféré à iobroker-community-adaptateurs organisation\nAdaptateur nécessite node 18 et js-controller 5 maintenant\nLes dépendances ont été actualisées",
-        "it": "Questo adattatore è stato spostato all'organizzazione iobroker-community-adapters\nAdattatore richiede nodo 18 e js-controller 5 ora\nLe dipendenze sono state aggiornate",
-        "es": "Este adaptador ha sido trasladado a la organización de ibroker-community-adapters\nAdaptador requiere nodo 18 y js-controller 5 ahora\nSe han actualizado las dependencias",
-        "pl": "Ten adapter hase został przeniesiony do organizacji adapterów iobroker- community-\nAdapter wymaga węzła 18 i sterownika js- 5 teraz\nZaktualizowano zależności",
-        "uk": "Цей адаптер був переміщений до організації iobroker-community-adapters\nАдаптер вимагає вузла 18 і js-controller 5 тепер\nЗалежність було оновлено",
-        "zh-cn": "这个适配器已经移到 iO 经纪人- 社区适应者组织\n适配器需要节点18和js控制器5 现在\n依赖关系已更新"
-      },
-      "2.0.0-alpha.0": {
-        "en": "This adpater hase been moved to iobroker-community-adapters organization\nAdapter requires node 18 and js-controller 5 now\nDependencies have been updated",
-        "de": "Dieser Adpater wurde in iobroker-community-Adapter Organisation verschoben\nAdapter benötigt jetzt Knoten 18 und js-Controller 5\nAbhängigkeiten wurden aktualisiert",
-        "ru": "Этот рекламщик был перемещен в организацию iobroker-community-adapters\nАдаптер требует узла 18 и js-контроллер 5 сейчас\nЗависимость обновлена",
-        "pt": "Este adpater foi movido para iobroker-community-adapters organização\nAdaptador requer nó 18 e js-controller 5 agora\nAs dependências foram atualizadas",
-        "nl": "Deze adpater is verplaatst naar iobroker-community-adapters organisatie\nAdapter vereist node 18 en js-controller 5 nu\nAfhankelijkheden zijn bijgewerkt",
-        "fr": "Cet adpater a été transféré à iobroker-community-adaptationers organisation\nAdaptateur nécessite node 18 et js-controller 5 maintenant\nLes dépendances ont été actualisées",
-        "it": "Questo adpater è stato trasferito all'organizzazione iobroker-community-adapters\nAdattatore richiede nodo 18 e js-controller 5 ora\nLe dipendenze sono state aggiornate",
-        "es": "This adpater hase been moved to iobroker-community-adapters organization\nAdaptador requiere nodo 18 y js-controller 5 ahora\nSe han actualizado las dependencias",
-        "pl": "Ta haza adpater została przeniesiona do organizacji adapterów iobroker- community-\nAdapter wymaga węzła 18 i sterownika js- 5 teraz\nZaktualizowano zależności",
-        "uk": "Цей аппатер був перенесений на iobroker-community-adapters\nАдаптер вимагає вузла 18 і js-controller 5 тепер\nЗалежність було оновлено",
-        "zh-cn": "这个代理商已经搬到了 iO经纪人-社区适应者组织\n适配器需要节点18和js控制器5 现在\n依赖关系已更新"
+      "2.0.0": {
+        "en": "This adapter hase been moved to iobroker-community-adapters organization\nAdapter requires node.js >= 18 and js-controller >= 5 now.\nDependencies have been updated",
+        "de": "Dieser Adapter wurde in iobroker-community-Adapter Organisation verschoben\nAdapter benötigt node.js >= 18 und js-controller >= 5 jetzt.\nAbhängigkeiten wurden aktualisiert",
+        "ru": "Этот адаптер был перемещен в организацию iobroker-community-adapters\nАдаптер требует node.js >= 18 и js-контроллер >= Сейчас 5.\nЗависимость обновлена",
+        "pt": "Este adaptador foi movido para iobroker-community-adapters organização\nAdapter requer node.js >= 18 e js-controller >= 5 agora.\nAs dependências foram atualizadas",
+        "nl": "Deze adapter is verplaatst naar iobroker-community-adapters organisatie\nVoor adaptor zijn node.js < 18 en js-controller > Vijf nu.\nAfhankelijkheden zijn bijgewerkt",
+        "fr": "Cet adaptateur a été transféré à iobroker-community-adaptateurs organisation\nL'adaptateur nécessite node.js >= 18 et js-controller >= 5 maintenant.\nLes dépendances ont été actualisées",
+        "it": "Questo adattatore è stato spostato all'organizzazione iobroker-community-adapters\nAdattatore richiede node.js >= 18 e js-controller >= 5 ora.\nLe dipendenze sono state aggiornate",
+        "es": "Este adaptador ha sido trasladado a la organización de ibroker-community-adapters\nAdaptador requiere node.js √≥= 18 y js-controller 5 ahora.\nSe han actualizado las dependencias",
+        "pl": "Ten adapter hase został przeniesiony do organizacji adapterów iobroker- community-\nAdapter wymaga node.js > = 18 i kontroler js- > = 5 teraz.\nZaktualizowano zależności",
+        "uk": "Цей адаптер був переміщений до організації iobroker-community-adapters\nАдаптер вимагає node.js >= 18 і js-controller >= 5 тепер.\nЗалежність було оновлено",
+        "zh-cn": "这个适配器已经移到 iO 经纪人- 社区适应者组织\n适配器需要节点.js QQ18和js控制器 QQ 5点了.\n依赖关系已更新"
       },
       "1.0.6": {
         "en": "User can enable/disable sentry logging",
@@ -80,19 +67,6 @@
         "pl": "Poprawianie błędów, zmiana rozmiaru logo",
         "zh-cn": "修正错误，更改徽标大小",
         "uk": "Виправлення помилок, зміна розміру логотипу"
-      },
-      "1.0.2": {
-        "en": "Bugfixing, of changing sepaation of entries in riskindex_x from ',' to ', '",
-        "de": "Bugfixing, Änderung der Trennung von Einträgen in riskindex_x von ',' in ','",
-        "ru": "Исправлена ​​ошибка изменения разделения записей в riskindex_x с ',' на ','",
-        "pt": "Bugfixing, de alterar a separação de entradas em riskindex_x de ',' para ','",
-        "nl": "Bugfixing, van veranderende sepaation van ingangen in riskindex_x van ',' naar ','",
-        "fr": "Correction de bugs, de modification de la séparation des entrées dans riskindex_x de ',' à ','",
-        "it": "Correzione di bug, di cambiare la sepaation delle voci in riskindex_x da ',' a ','",
-        "es": "Corrección de errores, de cambiar la separación de entradas en riskindex_x de ',' a ','",
-        "pl": "Naprawianie błędów, zmiana separacji wpisów w riskindex_x z „,” na „,”",
-        "zh-cn": "错误修正，将riskindex_x中条目的分隔从'，'更改为'，'",
-        "uk": "Виправлення помилок зміни розділення записів у riskindex_x з ',' на ', '"
       }
     },
     "titleLang": {
