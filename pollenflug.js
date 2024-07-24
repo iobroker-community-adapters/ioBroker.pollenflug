@@ -8,33 +8,10 @@
 const utils = require('@iobroker/adapter-core');
 const request = require('request-promise-native');
 const adapterName = require('./package.json').name.split('.').pop();
-const adapterNodeVer = require('./package.json').engines.node;
-const semver = require('semver');
 
 let systemLanguage;
 let adapter;
 
-/**
- * Change the external Sentry Logging. After changing the Logging
- * the adapter restarts once
- * @param {*} id : adapter.config.sentry_enable for example
- */
-async function setSentryLogging(value) {
-  try {
-    value = value === true;
-    let idSentry = 'system.adapter.' + adapter.namespace + '.plugins.sentry.enabled';
-    let stateSentry = await adapter.getForeignStateAsync(idSentry);
-    if (stateSentry && stateSentry.val !== value) {
-      await adapter.setForeignStateAsync(idSentry, value);
-      adapter.log.info('Restarting Adapter because of changeing Sentry settings');
-      adapter.restart();
-      return true;
-    }
-  } catch (error) {
-    return false;
-  }
-  return false;
-}
 
 function startAdapter(options) {
   options = options || {};
@@ -67,11 +44,6 @@ function startAdapter(options) {
   // *****************************************************************************************************
   adapter.on('ready', async () => {
     adapter.log.info('Starting Adapter ' + adapter.namespace + ' in version ' + adapter.version);
-    if (await setSentryLogging(adapter.config.sentry_enable)) return;
-    if (!semver.satisfies(process.version, adapterNodeVer)) {
-      adapter.log.error(`Required node version ${adapterNodeVer} not satisfied with current version ${process.version}.`);
-      setTimeout(() => adapter.stop());
-    }
     let obj = await adapter.getForeignObjectAsync('system.config');
     if (obj && obj.common && obj.common.language) systemLanguage = (obj.common.language).toUpperCase();
     await main();
