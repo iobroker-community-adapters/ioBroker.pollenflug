@@ -34,9 +34,9 @@ function startAdapter(options) {
     // *****************************************************************************************************
     // Listen for sendTo messages
     // *****************************************************************************************************
-    adapter.on('message', async (msg) => {
-
-    });
+    //adapter.on('message', async (msg) => {
+    //
+    //});
 
     // *****************************************************************************************************
     // is called when databases are connected and adapter received configuration.
