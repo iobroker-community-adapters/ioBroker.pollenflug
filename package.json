@@ -27,7 +27,7 @@
     "url": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^3.1.4",
+    "@iobroker/adapter-core": "^3.1.6",
     "node-schedule": "^2.1.1",
     "request-promise-native": "^1.0.9",
     "request": "^2.88.2",
