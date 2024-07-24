@@ -171,8 +171,8 @@
         "loglevel": "info",
         "type": "weather",
         "restartAdapters": [],
-        "connectionType": "local",
-        "dataSource": "push"
+        "connectionType": "cloud",
+        "dataSource": "poll"
     },
     "native": {
         "pollInterval": "5",
