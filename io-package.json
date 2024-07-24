@@ -2,7 +2,6 @@
     "common": {
         "name": "pollenflug",
         "version": "1.0.6",
-        "title": "Pollen flight risk index",
         "news": {
             "1.0.6": {
                 "en": "User can enable/disable sentry logging",
@@ -127,8 +126,8 @@
         },
         "titleLang": {
             "en": "Pollen flight risk index",
-            "de": "Pollenflug Gefahrenindex in Deutschland",
-            "ru": "Индекс риска перелета пыльцы »",
+            "de": "Pollenflug Gefahrenindex",
+            "ru": "Индекс риска перелета пыльцы",
             "pt": "Índice de risco de vôo de pólen",
             "nl": "Stuifmeelvluchtrisico-index",
             "fr": "Indice de risque de vol de pollen",
@@ -139,8 +138,8 @@
         },
         "desc": {
             "en": "Pollen flight risk index",
-            "de": "Pollenflug Gefahrenindex in Deutschland",
-            "ru": "Индекс риска перелета пыльцы »",
+            "de": "Pollenflug Gefahrenindex",
+            "ru": "Индекс риска перелета пыльцы",
             "pt": "Índice de risco de vôo de pólen",
             "nl": "Stuifmeelvluchtrisico-index",
             "fr": "Indice de risque de vol de pollen",
@@ -149,30 +148,41 @@
             "pl": "Wskaźnik ryzyka lotu pyłkowego",
             "zh-cn": "花粉飞行风险指数"
         },
-        "license": "MIT",
         "authors": [
             "Thorsten Stueben <thorsten@stueben.de>",
             "mcm1957 <iobroker-community-adapters@gmx.de>"
         ],
-        "platform": "Javascript/Node.js",
-        "mode": "daemon",
-        "messagebox": false,
-        "stopBeforeUpdate": true,
-        "subscribe": "messagebox",
-        "icon": "pollenflug.png",
-        "materialize": true,
-        "enabled": true,
-        "compact": true,
-        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapter/ioBroker.pollenflug/master/admin/pollenflug.png",
         "keywords": [
-            "pollenflug"
+            "pollenflug",
+            "pollen count"
         ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "icon": "pollenflug.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapter/ioBroker.pollenflug/master/admin/pollenflug.png",
         "readme": "https://github.com/iobroker-community-adapter/ioBroker.pollenflug/blob/master/README.md",
         "loglevel": "info",
+        "messagebox": false,
+        "mode": "daemon",
         "type": "weather",
-        "restartAdapters": [],
+        "compact": true,
         "connectionType": "cloud",
-        "dataSource": "poll"
+        "dataSource": "poll",
+        "stopBeforeUpdate": true,
+        "adminUI": {
+            "config": "materialize"
+        },
+        "dependencies": [
+            {
+              "js-controller": ">=5.0.19"
+            }
+        ],
+        "globalDependencies": [
+            {
+              "admin": ">=6.17.14"
+            }
+        ]
     },
     "native": {
         "pollInterval": "5",
