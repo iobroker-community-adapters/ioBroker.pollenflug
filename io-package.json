@@ -151,7 +151,8 @@
         },
         "license": "MIT",
         "authors": [
-            "Thorsten Stueben <thorsten@stueben.de>"
+            "Thorsten Stueben <thorsten@stueben.de>",
+            "mcm1957 <iobroker-community-adapters@gmx.de>",
         ],
         "platform": "Javascript/Node.js",
         "mode": "daemon",
@@ -162,11 +163,11 @@
         "materialize": true,
         "enabled": true,
         "compact": true,
-        "extIcon": "https://raw.githubusercontent.com/schmupu/ioBroker.pollenflug/master/admin/pollenflug.png",
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapter/ioBroker.pollenflug/master/admin/pollenflug.png",
         "keywords": [
             "pollenflug"
         ],
-        "readme": "https://github.com/schmupu/ioBroker.pollenflug/blob/master/README.md",
+        "readme": "https://github.com/iobroker-community-adapter/ioBroker.pollenflug/blob/master/README.md",
         "loglevel": "info",
         "type": "weather",
         "restartAdapters": [],
