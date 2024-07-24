@@ -1,195 +1,160 @@
 {
-    "common": {
-        "name": "pollenflug",
-        "version": "1.0.6",
-        "news": {
-            "1.0.6": {
-                "en": "User can enable/disable sentry logging",
-                "de": "Der Benutzer kann die Wachprotokollierung aktivieren / deaktivieren",
-                "ru": "Пользователь может включить / отключить регистрацию",
-                "pt": "O usuário pode ativar / desativar o registro de sentinela",
-                "nl": "De gebruiker kan logboekregistratie inschakelen / uitschakelen",
-                "fr": "L'utilisateur peut activer / désactiver la journalisation des sentinelles",
-                "it": "L'utente può abilitare / disabilitare la registrazione delle sentinelle",
-                "es": "El usuario puede habilitar / deshabilitar el registro de centinela",
-                "pl": "Użytkownik może włączyć / wyłączyć rejestrowanie sentry",
-                "zh-cn": "用户可以启用/禁用哨兵日志记录"
-            },
-            "1.0.5": {
-                "en": "add sentry to the adapter",
-                "de": "Adapter unterstützt Sentry",
-                "ru": "добавить часового к адаптеру",
-                "pt": "adicionar sentinela ao adaptador",
-                "nl": "voeg schildwacht toe aan de adapter",
-                "fr": "ajouter une sentinelle à l'adaptateur",
-                "it": "aggiungi sentinella all'adattatore",
-                "es": "agregar centinela al adaptador",
-                "pl": "dodaj wartownik do adaptera",
-                "zh-cn": "将哨兵添加到适配器"
-            },
-            "1.0.4": {
-                "en": "Bugfixing",
-                "de": "Bugfixing",
-                "ru": "Исправление ошибок",
-                "pt": "Corrigindo erro",
-                "nl": "bugfixing",
-                "fr": "Correction de bugs",
-                "it": "bugfixing",
-                "es": "Corrección de errores",
-                "pl": "Naprawa błędów",
-                "zh-cn": "错误修正"
-            },
-            "1.0.3": {
-                "en": "Bugfixing, changing logo size",
-                "de": "Bugfixing, Logogröße ändern",
-                "ru": "Исправление ошибок, изменение размера логотипа",
-                "pt": "Correção de bugs, alterando o tamanho do logotipo",
-                "nl": "Bugfixing, wijziging van de grootte van het logo",
-                "fr": "Correction de bugs, modification de la taille du logo",
-                "it": "Bugfixing, modifica delle dimensioni del logo",
-                "es": "Corrección de errores, cambio de tamaño del logotipo",
-                "pl": "Poprawianie błędów, zmiana rozmiaru logo",
-                "zh-cn": "修正错误，更改徽标大小"
-            },
-            "1.0.2": {
-                "en": "Bugfixing, of changing sepaation of entries in riskindex_x from ',' to ', '",
-                "de": "Bugfixing, Änderung der Trennung von Einträgen in riskindex_x von ',' in ','",
-                "ru": "Исправлена ​​ошибка изменения разделения записей в riskindex_x с ',' на ','",
-                "pt": "Bugfixing, de alterar a separação de entradas em riskindex_x de ',' para ','",
-                "nl": "Bugfixing, van veranderende sepaation van ingangen in riskindex_x van ',' naar ','",
-                "fr": "Correction de bugs, de modification de la séparation des entrées dans riskindex_x de ',' à ','",
-                "it": "Correzione di bug, di cambiare la sepaation delle voci in riskindex_x da ',' a ','",
-                "es": "Corrección de errores, de cambiar la separación de entradas en riskindex_x de ',' a ','",
-                "pl": "Naprawianie błędów, zmiana separacji wpisów w riskindex_x z „,” na „,”",
-                "zh-cn": "错误修正，将riskindex_x中条目的分隔从'，'更改为'，'"
-            },
-            "1.0.1": {
-                "en": "Bugfixing of version 1.0.0",
-                "de": "Fehlerbehebung von Version 1.0.0",
-                "ru": "Исправление версии 1.0.0",
-                "pt": "Correção de bugs da versão 1.0.0",
-                "nl": "Bugfixing van versie 1.0.0",
-                "fr": "Correction de bugs de la version 1.0.0",
-                "it": "Correzione di errori della versione 1.0.0",
-                "es": "Corrección de errores de la versión 1.0.0",
-                "pl": "Naprawianie błędów wersji 1.0.0",
-                "zh-cn": "版本1.0.0的修正错误"
-            },
-            "1.0.0": {
-                "en": "Changed the pollen index for better use in VIS. Now you you values -1, 0, 1, 2, 3, 4, 5 ,6",
-                "de": "Der Pollenindex wurde für eine bessere Verwendung in VIS geändert. ",
-                "ru": "Изменен индекс пыльцы для лучшего использования в VIS. ",
-                "pt": "Mudou o índice de pólen para melhor uso no VIS. ",
-                "nl": "De stuifmeelindex veranderd voor een beter gebruik in het VIS. ",
-                "fr": "Modification de l'indice de pollen pour une meilleure utilisation dans le VIS. ",
-                "it": "Modificato l'indice dei pollini per un utilizzo migliore in VIS. ",
-                "es": "Se modificó el índice de polen para un mejor uso en VIS. ",
-                "pl": "Zmieniono indeks pyłkowy, aby lepiej wykorzystać go w VIS. ",
-                "zh-cn": "更改了花粉指数，以便在VIS中更好地使用。"
-            },
-            "0.1.9": {
-                "en": "Images of pollen added",
-                "de": "Bilder von Pollen hinzugefügt",
-                "ru": "Добавлены изображения пыльцы",
-                "pt": "Imagens de pólen adicionadas",
-                "nl": "Beelden van stuifmeel toegevoegd",
-                "fr": "Images de pollen ajoutées",
-                "it": "Immagini di polline aggiunte",
-                "es": "Imágenes de polen añadidas.",
-                "pl": "Dodano obrazy pyłków",
-                "zh-cn": "花粉的图像添加"
-            },
-            "0.1.8": {
-                "en": "Bugfixing",
-                "de": "Bugfixing",
-                "ru": "Исправление ошибок",
-                "pt": "Corrigindo erro",
-                "nl": "Bug Fixing",
-                "fr": "Correction de bugs",
-                "it": "Correzione di bug",
-                "es": "Corrección de errores",
-                "pl": "Naprawa błędów",
-                "zh-cn": "错误修复"
-            },
-            "0.1.6": {
-                "en": "First version of pollen flight risk index",
-                "de": "Erste Version vom Pollenflug Gefahrenindex",
-                "ru": "Первая версия индекса летного риска пыльцы",
-                "pt": "Primeira versão do índice de risco de vôo do pólen",
-                "nl": "Eerste versie van de pollenvluchtrisico-index",
-                "fr": "Première version de l'indice de risque de vol de pollen",
-                "it": "Prima versione dell'indice di rischio di volo dei pollini",
-                "es": "Primera versión del índice de riesgo de fuga de polen.",
-                "pl": "Pierwsza wersja wskaźnika ryzyka lotu pyłkowego",
-                "zh-cn": "第一版花粉飞行风险指数"
-            }
-        },
-        "titleLang": {
-            "en": "Pollen flight risk index",
-            "de": "Pollenflug Gefahrenindex",
-            "ru": "Индекс риска перелета пыльцы",
-            "pt": "Índice de risco de vôo de pólen",
-            "nl": "Stuifmeelvluchtrisico-index",
-            "fr": "Indice de risque de vol de pollen",
-            "it": "Indice di rischio di volo pollinico",
-            "es": "Índice de riesgo de fuga de polen",
-            "pl": "Wskaźnik ryzyka lotu pyłkowego",
-            "zh-cn": "花粉飞行风险指数"
-        },
-        "desc": {
-            "en": "Pollen flight risk index",
-            "de": "Pollenflug Gefahrenindex",
-            "ru": "Индекс риска перелета пыльцы",
-            "pt": "Índice de risco de vôo de pólen",
-            "nl": "Stuifmeelvluchtrisico-index",
-            "fr": "Indice de risque de vol de pollen",
-            "it": "Indice di rischio di volo pollinico",
-            "es": "Índice de riesgo de fuga de polen",
-            "pl": "Wskaźnik ryzyka lotu pyłkowego",
-            "zh-cn": "花粉飞行风险指数"
-        },
-        "authors": [
-            "Thorsten Stueben <thorsten@stueben.de>",
-            "mcm1957 <iobroker-community-adapters@gmx.de>"
-        ],
-        "keywords": [
-            "pollenflug",
-            "pollen count"
-        ],
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "icon": "pollenflug.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.pollenflug/master/admin/pollenflug.png",
-        "readme": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug/blob/master/README.md",
-        "loglevel": "info",
-        "messagebox": false,
-        "mode": "daemon",
-        "type": "weather",
-        "compact": true,
-        "connectionType": "cloud",
-        "dataSource": "poll",
-        "stopBeforeUpdate": true,
-        "adminUI": {
-            "config": "materialize"
-        },
-        "dependencies": [
-            {
-              "js-controller": ">=5.0.19"
-            }
-        ],
-        "globalDependencies": [
-            {
-              "admin": ">=6.17.14"
-            }
-        ]
+  "common": {
+    "name": "pollenflug",
+    "version": "2.0.0-alpha.0",
+    "news": {
+      "2.0.0-alpha.0": {
+        "en": "This adpater hase been moved to iobroker-community-adapters organization\nAdapter requires node 18 and js-controller 5 now\nDependencies have been updated",
+        "de": "Dieser Adpater wurde in iobroker-community-Adapter Organisation verschoben\nAdapter benötigt jetzt Knoten 18 und js-Controller 5\nAbhängigkeiten wurden aktualisiert",
+        "ru": "Этот рекламщик был перемещен в организацию iobroker-community-adapters\nАдаптер требует узла 18 и js-контроллер 5 сейчас\nЗависимость обновлена",
+        "pt": "Este adpater foi movido para iobroker-community-adapters organização\nAdaptador requer nó 18 e js-controller 5 agora\nAs dependências foram atualizadas",
+        "nl": "Deze adpater is verplaatst naar iobroker-community-adapters organisatie\nAdapter vereist node 18 en js-controller 5 nu\nAfhankelijkheden zijn bijgewerkt",
+        "fr": "Cet adpater a été transféré à iobroker-community-adaptationers organisation\nAdaptateur nécessite node 18 et js-controller 5 maintenant\nLes dépendances ont été actualisées",
+        "it": "Questo adpater è stato trasferito all'organizzazione iobroker-community-adapters\nAdattatore richiede nodo 18 e js-controller 5 ora\nLe dipendenze sono state aggiornate",
+        "es": "This adpater hase been moved to iobroker-community-adapters organization\nAdaptador requiere nodo 18 y js-controller 5 ahora\nSe han actualizado las dependencias",
+        "pl": "Ta haza adpater została przeniesiona do organizacji adapterów iobroker- community-\nAdapter wymaga węzła 18 i sterownika js- 5 teraz\nZaktualizowano zależności",
+        "uk": "Цей аппатер був перенесений на iobroker-community-adapters\nАдаптер вимагає вузла 18 і js-controller 5 тепер\nЗалежність було оновлено",
+        "zh-cn": "这个代理商已经搬到了 iO经纪人-社区适应者组织\n适配器需要节点18和js控制器5 现在\n依赖关系已更新"
+      },
+      "1.0.6": {
+        "en": "User can enable/disable sentry logging",
+        "de": "Der Benutzer kann die Wachprotokollierung aktivieren / deaktivieren",
+        "ru": "Пользователь может включить / отключить регистрацию",
+        "pt": "O usuário pode ativar / desativar o registro de sentinela",
+        "nl": "De gebruiker kan logboekregistratie inschakelen / uitschakelen",
+        "fr": "L'utilisateur peut activer / désactiver la journalisation des sentinelles",
+        "it": "L'utente può abilitare / disabilitare la registrazione delle sentinelle",
+        "es": "El usuario puede habilitar / deshabilitar el registro de centinela",
+        "pl": "Użytkownik może włączyć / wyłączyć rejestrowanie sentry",
+        "zh-cn": "用户可以启用/禁用哨兵日志记录"
+      },
+      "1.0.5": {
+        "en": "add sentry to the adapter",
+        "de": "Adapter unterstützt Sentry",
+        "ru": "добавить часового к адаптеру",
+        "pt": "adicionar sentinela ao adaptador",
+        "nl": "voeg schildwacht toe aan de adapter",
+        "fr": "ajouter une sentinelle à l'adaptateur",
+        "it": "aggiungi sentinella all'adattatore",
+        "es": "agregar centinela al adaptador",
+        "pl": "dodaj wartownik do adaptera",
+        "zh-cn": "将哨兵添加到适配器"
+      },
+      "1.0.4": {
+        "en": "Bugfixing",
+        "de": "Bugfixing",
+        "ru": "Исправление ошибок",
+        "pt": "Corrigindo erro",
+        "nl": "bugfixing",
+        "fr": "Correction de bugs",
+        "it": "bugfixing",
+        "es": "Corrección de errores",
+        "pl": "Naprawa błędów",
+        "zh-cn": "错误修正"
+      },
+      "1.0.3": {
+        "en": "Bugfixing, changing logo size",
+        "de": "Bugfixing, Logogröße ändern",
+        "ru": "Исправление ошибок, изменение размера логотипа",
+        "pt": "Correção de bugs, alterando o tamanho do logotipo",
+        "nl": "Bugfixing, wijziging van de grootte van het logo",
+        "fr": "Correction de bugs, modification de la taille du logo",
+        "it": "Bugfixing, modifica delle dimensioni del logo",
+        "es": "Corrección de errores, cambio de tamaño del logotipo",
+        "pl": "Poprawianie błędów, zmiana rozmiaru logo",
+        "zh-cn": "修正错误，更改徽标大小"
+      },
+      "1.0.2": {
+        "en": "Bugfixing, of changing sepaation of entries in riskindex_x from ',' to ', '",
+        "de": "Bugfixing, Änderung der Trennung von Einträgen in riskindex_x von ',' in ','",
+        "ru": "Исправлена ​​ошибка изменения разделения записей в riskindex_x с ',' на ','",
+        "pt": "Bugfixing, de alterar a separação de entradas em riskindex_x de ',' para ','",
+        "nl": "Bugfixing, van veranderende sepaation van ingangen in riskindex_x van ',' naar ','",
+        "fr": "Correction de bugs, de modification de la séparation des entrées dans riskindex_x de ',' à ','",
+        "it": "Correzione di bug, di cambiare la sepaation delle voci in riskindex_x da ',' a ','",
+        "es": "Corrección de errores, de cambiar la separación de entradas en riskindex_x de ',' a ','",
+        "pl": "Naprawianie błędów, zmiana separacji wpisów w riskindex_x z „,” na „,”",
+        "zh-cn": "错误修正，将riskindex_x中条目的分隔从'，'更改为'，'"
+      },
+      "1.0.1": {
+        "en": "Bugfixing of version 1.0.0",
+        "de": "Fehlerbehebung von Version 1.0.0",
+        "ru": "Исправление версии 1.0.0",
+        "pt": "Correção de bugs da versão 1.0.0",
+        "nl": "Bugfixing van versie 1.0.0",
+        "fr": "Correction de bugs de la version 1.0.0",
+        "it": "Correzione di errori della versione 1.0.0",
+        "es": "Corrección de errores de la versión 1.0.0",
+        "pl": "Naprawianie błędów wersji 1.0.0",
+        "zh-cn": "版本1.0.0的修正错误"
+      }
     },
-    "native": {
-        "pollInterval": "5",
-        "region": "*",
-        "url": "https://opendata.dwd.de/climate_environment/health/alerts/s31fg.json",
-        "sentry_enable": true
+    "titleLang": {
+      "en": "Pollen flight risk index",
+      "de": "Pollenflug Gefahrenindex",
+      "ru": "Индекс риска перелета пыльцы",
+      "pt": "Índice de risco de vôo de pólen",
+      "nl": "Stuifmeelvluchtrisico-index",
+      "fr": "Indice de risque de vol de pollen",
+      "it": "Indice di rischio di volo pollinico",
+      "es": "Índice de riesgo de fuga de polen",
+      "pl": "Wskaźnik ryzyka lotu pyłkowego",
+      "zh-cn": "花粉飞行风险指数"
     },
-    "objects": [],
-    "instanceObjects": []
+    "desc": {
+      "en": "Pollen flight risk index",
+      "de": "Pollenflug Gefahrenindex",
+      "ru": "Индекс риска перелета пыльцы",
+      "pt": "Índice de risco de vôo de pólen",
+      "nl": "Stuifmeelvluchtrisico-index",
+      "fr": "Indice de risque de vol de pollen",
+      "it": "Indice di rischio di volo pollinico",
+      "es": "Índice de riesgo de fuga de polen",
+      "pl": "Wskaźnik ryzyka lotu pyłkowego",
+      "zh-cn": "花粉飞行风险指数"
+    },
+    "authors": [
+      "Thorsten Stueben <thorsten@stueben.de>",
+      "mcm1957 <iobroker-community-adapters@gmx.de>"
+    ],
+    "keywords": [
+      "pollenflug",
+      "pollen count"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "icon": "pollenflug.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.pollenflug/master/admin/pollenflug.png",
+    "readme": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug/blob/master/README.md",
+    "loglevel": "info",
+    "messagebox": false,
+    "mode": "daemon",
+    "type": "weather",
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "stopBeforeUpdate": true,
+    "adminUI": {
+      "config": "materialize"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.19"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=6.17.14"
+      }
+    ]
+  },
+  "native": {
+    "pollInterval": "5",
+    "region": "*",
+    "url": "https://opendata.dwd.de/climate_environment/health/alerts/s31fg.json",
+    "sentry_enable": true
+  },
+  "objects": [],
+  "instanceObjects": []
 }

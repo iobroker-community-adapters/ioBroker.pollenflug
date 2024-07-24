@@ -114,7 +114,7 @@ This adapter would not have been possible without the great work of schmupu (htt
 	Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 2.0.0-alpha.0 (2024-07-24)
 * (mcm1957) This adpater hase been moved to iobroker-community-adapters organization
 * (mcm1957) Adapter requires node 18 and js-controller 5 now
 * (mcm1957) Dependencies have been updated
@@ -153,7 +153,6 @@ This adapter would not have been possible without the great work of schmupu (htt
 
 ### 0.1.6 (20.02.2019)
 * (Stübi) First Version of pollen index adapter
-
 
 ## License
 The MIT License (MIT)
