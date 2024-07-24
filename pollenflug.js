@@ -206,11 +206,11 @@ function getDate(datum) {
     return mydate;
 }
 
-function getWeekday(datum) {
-    const weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednsday', 'Thursday', 'Friday', 'Saturday'];
-    const n = weekday[datum.getDay()];
-    return n;
-}
+//function getWeekday(datum) {
+//    const weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednsday', 'Thursday', 'Friday', 'Saturday'];
+//    const n = weekday[datum.getDay()];
+//    return n;
+//}
 
 async function deleteObjects(result) {
     try {
@@ -310,7 +310,7 @@ async function createImageObjects(result) {
             for (const i in content) {
                 const entry = content[i];
                 for (const j in entry.Pollen) {
-                    const pollen = entry.Pollen[j];
+                    //const pollen = entry.Pollen[j];
                     const channelid = deviceid + '.' + j;
                     await adapter.setObjectNotExistsAsync(channelid, {
                         type: 'channel',
@@ -462,7 +462,7 @@ async function createObjects(result) {
                     });
                     for (const k in pollen) {
                         if (k === 'dayafter_to') continue;
-                        const riskindex = pollen[k];
+                        //const riskindex = pollen[k];
                         let stateid = channelid + '.index_' + k;
                         promise.push(await adapter.setObjectNotExistsAsync(stateid, {
                             type: 'state',
@@ -510,7 +510,7 @@ async function setStates(result) {
                 const deviceid = adapter.namespace + '.region#' + partregion_id;
                 const json_index = {};
                 // let json_text = {};
-                const json_riskindex = {};
+                //const json_riskindex = {};
                 const index = {};
                 for (const j in entry.Pollen) {
                     const channelid = deviceid + '.' + j;
