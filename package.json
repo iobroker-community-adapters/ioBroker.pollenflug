@@ -19,6 +19,7 @@
   "homepage": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug",
   "license": "MIT",
   "keywords": [
+    "ioBroker",
     "pollenflug",
     "logic"
   ],
