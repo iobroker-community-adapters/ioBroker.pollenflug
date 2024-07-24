@@ -146,6 +146,7 @@ on({id: "pollenflug.0.info.today"/*Today*/, change: "ne"}, (obj) => {
 ## License
 The MIT License (MIT)
 
+Copyright (c) 2024 iobroker-community <iobroker-community-adapters@gmx.de>
 Copyright (c) 2020 Thorsten Stueben <thorsten@stueben.de> / <https://github.com/schmupu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

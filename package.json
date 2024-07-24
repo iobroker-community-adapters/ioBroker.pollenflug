@@ -13,10 +13,10 @@
     },
     {
       "name": "mcm1957",
-      "email": "iobroker-community-adapter@gmx.de"
+      "email": "iobroker-community-adapters@gmx.de"
     }
   ],
-  "homepage": "https://github.com/iobroker-community-adapter/ioBroker.pollenflug",
+  "homepage": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug",
   "license": "MIT",
   "keywords": [
     "pollenflug",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iobroker-community-adapter/ioBroker.pollenflug"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^3.1.4",
@@ -82,7 +82,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/iobroker-community-adapter/ioBroker.pollenflug/issues"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug/issues"
   },
   "readmeFilename": "README.md"
 }
