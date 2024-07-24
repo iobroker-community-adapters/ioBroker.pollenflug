@@ -1,0 +1,5 @@
+{
+    "Allow to transfer errors if the adapter crash. Private data like usernames, passwords, tokens, ... will be NOT be transferd.": "Erlaube das weiterleiten von Fehlern wenn der Adapter abstürtzt. Private Daten wie z.B. Benutzername, Passwort, Token, ... werden NICHT übertragen.",
+    "County": "Region",
+    "Main settings": "Haupteinstellungen"
+}

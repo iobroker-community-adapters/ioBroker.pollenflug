@@ -1,0 +1,5 @@
+{
+    "Allow to transfer errors if the adapter crash. Private data like usernames, passwords, tokens, ... will be NOT be transferd.": "Sta toe om fouten over te dragen als de adapter crasht. Privégegevens zoals gebruikersnamen, wachtwoorden, tokens, ... worden NIET overgedragen.",
+    "County": "Provincie",
+    "Main settings": "Belangrijkste instellingen"
+}

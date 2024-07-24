@@ -1,0 +1,5 @@
+{
+    "Allow to transfer errors if the adapter crash. Private data like usernames, passwords, tokens, ... will be NOT be transferd.": "如果适配器崩溃，则允许传输错误。用户名，密码，令牌等私密数据将不会被传输。",
+    "County": "县",
+    "Main settings": "主要设置"
+}

@@ -26,7 +26,8 @@
         "it": "L'utente può abilitare / disabilitare la registrazione delle sentinelle",
         "es": "El usuario puede habilitar / deshabilitar el registro de centinela",
         "pl": "Użytkownik może włączyć / wyłączyć rejestrowanie sentry",
-        "zh-cn": "用户可以启用/禁用哨兵日志记录"
+        "zh-cn": "用户可以启用/禁用哨兵日志记录",
+        "uk": "Користувач може ввімкнути/вимкнути сторожовий журнал"
       },
       "1.0.5": {
         "en": "add sentry to the adapter",
@@ -38,7 +39,8 @@
         "it": "aggiungi sentinella all'adattatore",
         "es": "agregar centinela al adaptador",
         "pl": "dodaj wartownik do adaptera",
-        "zh-cn": "将哨兵添加到适配器"
+        "zh-cn": "将哨兵添加到适配器",
+        "uk": "додати годинник до адаптера"
       },
       "1.0.4": {
         "en": "Bugfixing",
@@ -50,7 +52,8 @@
         "it": "bugfixing",
         "es": "Corrección de errores",
         "pl": "Naprawa błędów",
-        "zh-cn": "错误修正"
+        "zh-cn": "错误修正",
+        "uk": "Виправлення помилок"
       },
       "1.0.3": {
         "en": "Bugfixing, changing logo size",
@@ -62,7 +65,8 @@
         "it": "Bugfixing, modifica delle dimensioni del logo",
         "es": "Corrección de errores, cambio de tamaño del logotipo",
         "pl": "Poprawianie błędów, zmiana rozmiaru logo",
-        "zh-cn": "修正错误，更改徽标大小"
+        "zh-cn": "修正错误，更改徽标大小",
+        "uk": "Виправлення помилок, зміна розміру логотипу"
       },
       "1.0.2": {
         "en": "Bugfixing, of changing sepaation of entries in riskindex_x from ',' to ', '",
@@ -74,7 +78,8 @@
         "it": "Correzione di bug, di cambiare la sepaation delle voci in riskindex_x da ',' a ','",
         "es": "Corrección de errores, de cambiar la separación de entradas en riskindex_x de ',' a ','",
         "pl": "Naprawianie błędów, zmiana separacji wpisów w riskindex_x z „,” na „,”",
-        "zh-cn": "错误修正，将riskindex_x中条目的分隔从'，'更改为'，'"
+        "zh-cn": "错误修正，将riskindex_x中条目的分隔从'，'更改为'，'",
+        "uk": "Виправлення помилок зміни розділення записів у riskindex_x з ',' на ', '"
       },
       "1.0.1": {
         "en": "Bugfixing of version 1.0.0",
@@ -86,7 +91,8 @@
         "it": "Correzione di errori della versione 1.0.0",
         "es": "Corrección de errores de la versión 1.0.0",
         "pl": "Naprawianie błędów wersji 1.0.0",
-        "zh-cn": "版本1.0.0的修正错误"
+        "zh-cn": "版本1.0.0的修正错误",
+        "uk": "Виправлення помилок версії 1.0.0"
       }
     },
     "titleLang": {
@@ -99,7 +105,8 @@
       "it": "Indice di rischio di volo pollinico",
       "es": "Índice de riesgo de fuga de polen",
       "pl": "Wskaźnik ryzyka lotu pyłkowego",
-      "zh-cn": "花粉飞行风险指数"
+      "zh-cn": "花粉飞行风险指数",
+      "uk": "Індекс ризику польоту пилку"
     },
     "desc": {
       "en": "Pollen flight risk index",
@@ -111,7 +118,8 @@
       "it": "Indice di rischio di volo pollinico",
       "es": "Índice de riesgo de fuga de polen",
       "pl": "Wskaźnik ryzyka lotu pyłkowego",
-      "zh-cn": "花粉飞行风险指数"
+      "zh-cn": "花粉飞行风险指数",
+      "uk": "Індекс ризику польоту пилку"
     },
     "authors": [
       "Thorsten Stueben <thorsten@stueben.de>",

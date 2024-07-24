@@ -1,0 +1,5 @@
+{
+    "Allow to transfer errors if the adapter crash. Private data like usernames, passwords, tokens, ... will be NOT be transferd.": "Allow to transfer errors if the adapter crash. Private data like usernames, passwords, tokens, ... will be NOT be transferd.",
+    "County": "County",
+    "Main settings": "Main settings"
+}

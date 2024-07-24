@@ -1,0 +1,5 @@
+{
+    "Allow to transfer errors if the adapter crash. Private data like usernames, passwords, tokens, ... will be NOT be transferd.": "Разрешить передавать ошибки в случае сбоя адаптера. Личные данные, такие как имена пользователей, пароли, токены, ... НЕ будут передаваться.",
+    "County": "округ",
+    "Main settings": "Основные параметры"
+}
