@@ -157,7 +157,7 @@ This adapter would not have been possible without the great work of schmupu (htt
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2024 iobroker-community <iobroker-community-adapters@gmx.de>
+Copyright (c) 2024-2025 iobroker-community <iobroker-community-adapters@gmx.de>
 Copyright (c) 2020 Thorsten Stueben <thorsten@stueben.de> / <https://github.com/schmupu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
