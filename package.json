@@ -2,19 +2,10 @@
   "name": "iobroker.pollenflug",
   "version": "2.0.0",
   "description": "Pollen flight risk index",
-  "author": {
-    "name": "Thorsten Stueben",
-    "email": "thorsten@stueben.de"
-  },
+  "author": "Thorsten Stueben <thorsten@stueben.de>",
   "contributors": [
-    {
-      "name": "Thorsten Stueben",
-      "email": "thorsten@stueben.de"
-    },
-    {
-      "name": "mcm1957",
-      "email": "iobroker-community-adapters@gmx.de"
-    }
+    "Thorsten Stueben <thorsten@stueben.de>",
+    "mcm1957 <iobroker-community-adapters@gmx.de>"
   ],
   "homepage": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug",
   "license": "MIT",
