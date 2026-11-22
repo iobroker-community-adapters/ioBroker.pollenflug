@@ -95,6 +95,9 @@
       "zh-cn": "花粉飞行风险指数",
       "uk": "Індекс ризику польоту пилку"
     },
+    "docs": {
+      "en": "https://github.com/iobroker-community-adapters/ioBroker.pollenflug#readme"
+    },
     "authors": [
       "Thorsten Stueben <thorsten@stueben.de>",
       "mcm1957 <iobroker-community-adapters@gmx.de>"
