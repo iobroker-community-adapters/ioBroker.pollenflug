@@ -31,8 +31,7 @@ jobs:
           node-version: '24.x'
           # Uncomment the following line if your adapter cannot be installed using 'npm ci'
           # install-command: 'npm install'
-          # TODO: lint true after npm run lint clean (ESLint 9 migration)
-          lint: false
+          lint: true
 
   # Runs adapter tests on all supported node versions and OSes
   adapter-tests:
